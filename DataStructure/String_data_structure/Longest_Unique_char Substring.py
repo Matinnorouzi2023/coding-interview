@@ -15,3 +15,5 @@ def max_unique_length(str1):
         max_len = max(max_len, i-start+1)
         seen[char] = i
     return max_len
+
+print(max_unique_length('pqbrstbuvwpvy'))
