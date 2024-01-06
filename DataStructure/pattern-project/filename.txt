@@ -1,3 +1,8 @@
 I create a file and I am writing into in
 I create a file and I am writing into in
 I create a file and I am writing into in
+I create a file and I am writing into in
+log message:0
+log message:1
+log message:2
+log message:3
