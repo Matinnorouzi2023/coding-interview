@@ -86,7 +86,7 @@ class SinglyLinkedList:
   #  worst case:time =o(n), space=o(1)
   def addAtIndex(self, index, value):
     if index < 0 or index > self.size:
-      return 'invalid index'
+      return 'invalid index' 
     if index == self.size:
       return self.addAtTail(value)
     if index == 0:
@@ -118,7 +118,7 @@ class SinglyLinkedList:
       self.size -= 1
       if self.size == 0:
         self.tail = None
-      return temp
+      return temp.value
     if index == self.size - 1:
       oldTail = self.tail
       newTail = self.get(index - 1)
